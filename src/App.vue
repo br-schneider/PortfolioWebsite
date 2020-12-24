@@ -22,7 +22,7 @@
       <router-link to="/about" class="block px-2 py-1 mt-1 font-medium text-gray-800 rounded hover:text-gray-300 sm:mt-0 sm:ml-2">About</router-link>
       <a href="#" class="block px-2 py-1 mt-1 font-medium text-gray-800 rounded hover:text-gray-300 sm:mt-0 sm:ml-2"> Projects </a>
       <a href="#" class="block px-2 py-1 mt-1 font-medium text-gray-800 rounded hover:text-gray-300 sm:mt-0 sm:ml-2"> Photography </a>
-      <a href="#" class="block px-2 py-1 mt-1 mb-2 font-medium text-gray-800 rounded hover:text-gray-300 sm:mt-0 sm:ml-2"> Contact Me </a>
+      <a href="#" class="block px-2 py-1 mt-1 font-medium text-gray-800 rounded hover:text-gray-300 sm:mt-0 sm:ml-2"> Contact Me </a>
     </div>  
 
   </header>
