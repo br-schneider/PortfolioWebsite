@@ -1,30 +1,48 @@
 <template>
-  <div id="nav">
+  <!-- <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
-  </div>
+  </div> -->
+  <header class="sm:flex sm:justify-between sm:px-4 sm:py-3 sm:items-center">
+        <div class="flex items-center justify-between px-4 py-3 sm:p-0">
+            <div>
+                <h1 class="text-2xl font-bold text-gray-800">Brett Schneider</h1>
+            </div>
+
+            <div class="">
+                <button @click="isOpen=!isOpen" class="sm:hidden text-grey-500 hover:text-blue-400 focus:text-blue focus:outline-none" onClick={openMenu}>
+
+                    <svg class="w-6 h-6 fill-current" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path v-if="isOpen" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        <path v-if="!isOpen" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+
+        </div>
+
+        <div :class="isOpen ? 'block' : 'hidden' " class="px-2 text-left sm:flex" >
+            <router-link to="/" class="block px-2 py-1 font-medium text-gray-800 rounded hover:text-gray-300 sm:ml-2">Home</router-link>
+            <router-link to="/about" class="block px-2 py-1 mt-1 font-medium text-gray-800 rounded hover:text-gray-300 sm:mt-0 sm:ml-2">About</router-link>
+            <a href="#" class="block px-2 py-1 mt-1 font-medium text-gray-800 rounded hover:text-gray-300 sm:mt-0 sm:ml-2"> Projects </a>
+            <a href="#" class="block px-2 py-1 mt-1 font-medium text-gray-800 rounded hover:text-gray-300 sm:mt-0 sm:ml-2"> Photography </a>
+            <a href="#" class="block px-2 py-1 mt-1 mb-2 font-medium text-gray-800 rounded hover:text-gray-300 sm:mt-0 sm:ml-2"> Contact Me </a>
+        </div>  
+
+    </header>
   <router-view/>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+export default {
+  name: 'NavBar',
+  props: {
 
-#nav {
-  padding: 30px;
+  },
+  data () {
+    return {
+        isOpen: false,
+    }
+  }
 }
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+</script>
