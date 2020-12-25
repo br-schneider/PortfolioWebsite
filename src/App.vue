@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-gray-100 sm:flex sm:justify-between sm:px-4 sm:py-3 sm:items-center">
+  <header class="bg-gray-100 sm:flex sm:justify-between sm:px-4 sm:items-center sm:py-4">
     <div class="flex items-center justify-between px-4 py-3 sm:p-0">
       
       <div>
@@ -21,12 +21,21 @@
       <router-link to="/" class="block px-2 py-1 font-medium text-gray-800 rounded hover:text-gray-300 sm:ml-2">Home</router-link>
       <router-link to="/about" class="block px-2 py-1 mt-1 font-medium text-gray-800 rounded hover:text-gray-300 sm:mt-0 sm:ml-2">Projects</router-link>
       <a href="#" class="block px-2 py-1 mt-1 font-medium text-gray-800 rounded hover:text-gray-300 sm:mt-0 sm:ml-2"> Photography </a>
-      <a href="#" class="block px-2 py-1 mt-1 font-medium text-gray-800 rounded hover:text-gray-300 sm:mt-0 sm:ml-2"> Contact Me </a>
+      <a href="#" class="block px-2 py-1 mt-1 mb-2 font-medium text-gray-800 rounded hover:text-gray-300 sm:mt-0 sm:ml-2"> Contact Me </a>
     </div>  
 
   </header>
   
 <router-view/>
+
+<footer class="py-20 bg-gray-900">
+  <p>test</p>
+  <p>test</p>
+  <p>test</p>
+  <p>test</p>
+  <p>test</p>
+</footer>
+
 </template>
 
 <script>

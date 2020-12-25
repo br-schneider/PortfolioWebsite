@@ -1,8 +1,8 @@
-<template >
+<template>
   <div class="bg-gray-100">
 
     <!-- START OF HOME -->
-    <div class="container items-center py-32 mx-auto text-center bg-local bg-center bg-cover rounded shadow-lg bg-home-img">
+    <div class="container items-center mx-3 text-center bg-local bg-center bg-cover rounded shadow-lg sm:mx-auto py-44 bg-home-img">
 
       <p class="text-4xl font-bold text-white ">Available for Hire</p>
       <p class="mt-3 text-xl text-white">Get to know me!</p>
@@ -11,18 +11,20 @@
     </div>
 
     <!-- START OF SCHOOL -->
-    <div class="container mx-auto mt-3 bg-fixed rounded shadow-lg py-14 bg-buffGold bg-topo-img">
+    <div class="container mx-3 mt-3 text-gray-800 bg-fixed rounded shadow-lg sm:mx-auto py-14 bg-buffGold bg-topo-img">
       
       <p class="items-center text-2xl font-semibold text-center bg-center sm:text-4xl">Computer Science Major at <br> University of Colorado Boulder</p>
     
     </div>
 
-    <div class="container mx-auto">
+
+    <!-- GRID -->
+    <div class="container mx-auto mb-10 text-gray-800">
 
       <div class="flex flex-col justify-between mt-3 sm:flex-row">
        
        <!-- START OF ABOUT ME -->
-        <div class="flex-auto px-4 py-4 mb-3 bg-white rounded shadow-lg sm:max-w-sm lg:mb-0">
+        <div class="flex-auto px-4 py-4 mx-3 mb-3 bg-white rounded shadow-lg sm:mx-0 sm:max-w-md lg:mb-0">
           <div>
             <p class="text-2xl font-bold">About Me</p>
           </div>
@@ -39,7 +41,7 @@
 
 
         <!-- START OF SKILLS -->
-        <div class="flex-auto px-4 py-4 mb-3 bg-white rounded shadow-lg sm:max-w-sm lg:mb-0 sm:mx-3">
+        <div class="flex-auto px-4 py-4 mx-3 mb-3 bg-white rounded shadow-lg sm:mx-3 sm:max-w-md lg:mb-0">
            
           <div>
             <p class="mb-2 text-2xl font-bold">Skills</p> 
@@ -126,7 +128,7 @@
 
 
         <!-- START OF WEBSITE -->
-        <div class="flex-auto px-4 py-4 mb-3 bg-white rounded shadow-lg lg:mb-0 sm:max-w-sm">
+        <div class="flex-auto px-4 py-4 mx-3 mb-3 bg-white rounded shadow-lg sm:mx-0 lg:mb-0 sm:max-w-md">
           
           <div>
             <p class="text-2xl font-bold">This Website</p>  
