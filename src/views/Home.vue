@@ -1,7 +1,7 @@
 <template >
-  <div class="bg-gray-100">
+  <div class="">
 
-    <div class="container items-center py-32 mx-auto text-center bg-local bg-center bg-cover sm:rounded sm:mt-5 bg-home-img ">
+    <div class="container items-center py-32 mx-auto text-center bg-local bg-center bg-cover shadow-lg sm:rounded sm:mt-5 bg-home-img">
 
       <p class="text-4xl font-bold text-white ">Available for Hire</p>
       <p class="mt-3 text-xl text-white">Get to know me!</p>
@@ -11,15 +11,147 @@
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     </div>
 
-    <div class="container py-20 mx-auto bg-fixed sm:mt-3 sm:rounded bg-buffGold bg-topo-img">
+    <div class="container mx-auto bg-fixed shadow-lg py-14 sm:mt-3 sm:rounded bg-buffGold bg-topo-img">
       
       <p class="items-center text-2xl font-semibold text-center bg-center sm:text-4xl">Computer Science Major at <br> University of Colorado Boulder</p>
     
     </div>
 
-    <div class="flex mx-20 mt-3">
-      <div class="px-20 py-40 bg-gray-500">1</div>
+    <div class="container mx-auto">
+
+      <div class="flex flex-col justify-between sm:flex-row sm:mt-3">
+       
+       <!-- START OF ABOUT ME -->
+        <div class="flex-auto px-4 py-4 mb-3 bg-gray-200 shadow-lg sm:max-w-sm lg:mb-0 sm:rounded">
+          <div>
+            <p class="text-2xl font-bold">About Me</p>
+          </div>
+            <p class="">
+              My name is Brett, I am currently a full time student and plan on graduating in May of 2021. I am a progressive, 
+              energetic problem solver with project management, salesforce, and marketing experience on top of my already growing 
+              knowledge of the computer science field!
+            </p>
+          <div>
+            
+          </div>
+          
+        </div>
+
+
+        <!-- START OF SKILLS -->
+        <div class="justify-between flex-auto px-4 py-4 mb-3 bg-gray-200 shadow-lg sm:max-w-sm sm:rounded lg:mb-0 sm:mx-3">
+           
+          <div>
+            <p class="mb-2 text-2xl font-bold">Skills</p> 
+          </div>
+
+          <div class="grid grid-cols-4 grid-rows-3 gap-5">
+            
+            <a href="https://www.cprogramming.com/" target="_blank"> 
+              <img src="https://devicons.github.io/devicon/devicon.git/icons/c/c-original.svg" alt="c" width="40" height="40"/> 
+            </a> 
+            
+            <a href="https://www.w3schools.com/cpp/" target="_blank"> 
+              <img src="https://devicons.github.io/devicon/devicon.git/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> 
+            </a> 
+
+            <a href="https://www.java.com" target="_blank"> 
+              <img src="https://devicons.github.io/devicon/devicon.git/icons/java/java-original-wordmark.svg" alt="java" width="40" height="40"/> 
+            </a> 
+
+            <a href="https://www.python.org" target="_blank"> 
+              <img src="https://devicons.github.io/devicon/devicon.git/icons/python/python-original.svg" alt="python" width="40" height="40"/> 
+            </a> 
+
+            <a href="https://www.w3.org/html/" target="_blank"> 
+              <img src="https://devicons.github.io/devicon/devicon.git/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> 
+            </a> 
+
+            <a href="https://getbootstrap.com" target="_blank"> 
+              <img src="https://devicons.github.io/devicon/devicon.git/icons/bootstrap/bootstrap-plain.svg" alt="bootstrap" width="40" height="40"/> 
+            </a>
+
+            
+          
+            <a href="https://www.figma.com/" target="_blank"> 
+              <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> 
+            </a> 
+
+            <a href="https://www.photoshop.com/en" target="_blank"> 
+              <img src="https://devicons.github.io/devicon/devicon.git/icons/photoshop/photoshop-plain.svg" alt="photoshop" width="40" height="40"/> 
+            </a> 
+            
+          
+            <a href="https://heroku.com" target="_blank"> 
+              <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> 
+            </a> 
+          
+            
+          
+            
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> 
+              <img src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> 
+            </a> 
+          
+            <a href="https://www.mysql.com/" target="_blank">
+              <img src="https://devicons.github.io/devicon/devicon.git/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> 
+            </a> 
+            
+            
+            <a href="https://www.postgresql.org" target="_blank"> 
+              <img src="https://devicons.github.io/devicon/devicon.git/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> 
+            </a> 
+            
+            
+            <a href="https://reactjs.org/" target="_blank">
+              <img src="https://devicons.github.io/devicon/devicon.git/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> 
+            </a>
+            
+            <a href="https://www.scala-lang.org" target="_blank"> 
+              <img src="https://devicons.github.io/devicon/devicon.git/icons/scala/scala-original-wordmark.svg" alt="scala" width="40" height="40"/> 
+            </a> 
+            
+            <a href="https://spring.io/" target="_blank"> 
+              <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> 
+            </a> 
+            
+            <a href="https://vuejs.org/" target="_blank"> 
+              <img src="https://devicons.github.io/devicon/devicon.git/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> 
+            </a> 
+
+
+          </div>
+          
+        </div>
+
+
+        <!-- START OF WEBSITE -->
+        <div class="flex-auto px-4 py-4 mb-3 bg-gray-200 shadow-lg sm:rounded lg:mb-0 sm:max-w-sm">
+          
+          <div>
+            <p class="text-2xl font-bold">This Website</p>  
+          </div>
+
+          <div>
+
+            <a href="https://github.com/br-schneider">
+              <img src="https://simpleicons.org/icons/github.svg" alt="github" width="40" height="40">
+            </a>
+
+            <p>
+              I created this website using Vuejs and Tailwind CSS
+
+            </p>
+
+
+          </div>
+        </div>
+
+      </div>
+    
     </div>
+
+    
   </div>
 
   
