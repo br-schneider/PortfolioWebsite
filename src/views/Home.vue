@@ -47,80 +47,39 @@
             <p class="mb-2 text-2xl font-bold">Skills</p> 
           </div>
 
-          <div class="grid grid-cols-4 grid-rows-3 gap-5">
+          <div class="flex flex-row flex-wrap">
             
             <a href="https://www.cprogramming.com/" target="_blank"> 
-              <img src="https://devicons.github.io/devicon/devicon.git/icons/c/c-original.svg" alt="c" width="40" height="40"/> 
+              <img src="../assets/skills/c.svg" alt="c" width="40" height="40" class=""/> 
             </a> 
             
-            <a href="https://www.w3schools.com/cpp/" target="_blank"> 
-              <img src="https://devicons.github.io/devicon/devicon.git/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> 
+            <a href="https://www.cplusplus.com" target="_blank"> 
+              <img src="../assets/skills/cplusplus.svg" alt="cplusplus" width="40" height="40"/> 
             </a> 
 
             <a href="https://www.java.com" target="_blank"> 
-              <img src="https://devicons.github.io/devicon/devicon.git/icons/java/java-original-wordmark.svg" alt="java" width="40" height="40"/> 
+              <img src="../assets/skills/java.svg" alt="java" width="40" height="40"/> 
             </a> 
 
             <a href="https://www.python.org" target="_blank"> 
-              <img src="https://devicons.github.io/devicon/devicon.git/icons/python/python-original.svg" alt="python" width="40" height="40"/> 
+              <img src="../assets/skills/python.svg" alt="python" width="40" height="40"/> 
             </a> 
 
             <a href="https://www.w3.org/html/" target="_blank"> 
-              <img src="https://devicons.github.io/devicon/devicon.git/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> 
+              <img src="../assets/skills/html5.svg" alt="html5" width="40" height="40"/> 
+            </a> 
+
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> 
+              <img src="../assets/skills/javascript.svg" alt="javascript" width="40" height="40"/> 
             </a> 
 
             <a href="https://getbootstrap.com" target="_blank"> 
-              <img src="https://devicons.github.io/devicon/devicon.git/icons/bootstrap/bootstrap-plain.svg" alt="bootstrap" width="40" height="40"/> 
+              <img src="../assets/skills/bootstrap.svg" alt="bootstrap" width="40" height="40"/> 
             </a>
 
-            
-          
-            <a href="https://www.figma.com/" target="_blank"> 
-              <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> 
+            <a href="https://vuejs.org" target="_blank"> 
+              <img src="../assets/skills/vue.svg" alt="vue" width="40" height="40"/> 
             </a> 
-
-            <a href="https://www.photoshop.com/en" target="_blank"> 
-              <img src="https://devicons.github.io/devicon/devicon.git/icons/photoshop/photoshop-plain.svg" alt="photoshop" width="40" height="40"/> 
-            </a> 
-            
-          
-            <a href="https://heroku.com" target="_blank"> 
-              <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> 
-            </a> 
-          
-            
-          
-            
-            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> 
-              <img src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> 
-            </a> 
-          
-            <a href="https://www.mysql.com/" target="_blank">
-              <img src="https://devicons.github.io/devicon/devicon.git/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> 
-            </a> 
-            
-            
-            <a href="https://www.postgresql.org" target="_blank"> 
-              <img src="https://devicons.github.io/devicon/devicon.git/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> 
-            </a> 
-            
-            
-            <a href="https://reactjs.org/" target="_blank">
-              <img src="https://devicons.github.io/devicon/devicon.git/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> 
-            </a>
-            
-            <a href="https://www.scala-lang.org" target="_blank"> 
-              <img src="https://devicons.github.io/devicon/devicon.git/icons/scala/scala-original-wordmark.svg" alt="scala" width="40" height="40"/> 
-            </a> 
-            
-            <a href="https://spring.io/" target="_blank"> 
-              <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> 
-            </a> 
-            
-            <a href="https://vuejs.org/" target="_blank"> 
-              <img src="https://devicons.github.io/devicon/devicon.git/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> 
-            </a> 
-
 
           </div>
           
@@ -128,7 +87,7 @@
 
 
         <!-- START OF WEBSITE -->
-        <div class="flex-auto px-4 py-4 mx-3 mb-3 bg-white rounded shadow-lg sm:mx-0 lg:mb-0 sm:max-w-md">
+        <div class="flex-auto px-4 py-4 mx-3 mb-3 bg-white rounded shadow-lg sm:mx-0 sm:max-w-md lg:mb-0">
           
           <div>
             <p class="text-2xl font-bold">This Website</p>  
