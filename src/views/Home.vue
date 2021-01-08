@@ -47,7 +47,7 @@
             <p class="mb-2 text-2xl font-bold">Skills</p> 
           </div>
 
-          <div class="flex flex-row flex-wrap">
+          <div class="flex flex-row flex-wrap gap-3">
             
             <a href="https://www.cprogramming.com/" target="_blank"> 
               <img src="../assets/skills/c.svg" alt="c" width="40" height="40" class=""/> 
