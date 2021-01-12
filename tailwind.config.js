@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: theme => ({
-        'home-img': "url('https://res.cloudinary.com/ds4r60vrc/image/upload/v1610411425/home_vkrczn.png')",
+        'home-img': "url('./assets/home.png')",
         'topo-img': "url('./assets/topography.svg')",
       }),
 
