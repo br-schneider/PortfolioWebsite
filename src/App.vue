@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-gray-100 sm:flex sm:justify-between sm:px-4 sm:items-center sm:py-4">
+  <header class="relative flex bg-gray-100 sm:flex sm:justify-between sm:px-4 sm:items-center sm:py-4">
     <div class="flex items-center justify-between px-4 py-3 sm:p-0">
       
       <div>
