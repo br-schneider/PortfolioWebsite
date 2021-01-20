@@ -2,7 +2,7 @@
   <header class="container mx-auto bg-gray-100 sm:flex sm:justify-between sm:items-center sm:py-4">
     <div class="flex items-center justify-between px-4 py-3 sm:p-0">
       
-      <div>
+      <div class="items-center">
         <h1 class="text-2xl font-bold text-gray-800">Brett Schneider</h1>
       </div>
       
@@ -19,7 +19,7 @@
       
     <div :class="isOpen ? 'block' : 'hidden' " class="items-center px-2 text-left sm:flex" >
       <router-link to="/" class="block px-2 py-1 font-medium text-gray-800 rounded hover:text-gray-300 sm:ml-2">Home</router-link>
-      <router-link to="/about" class="block px-2 py-1 mt-1 font-medium text-gray-800 rounded hover:text-gray-300 sm:mt-0 sm:ml-2">Projects</router-link>
+      <router-link to="/experience" class="block px-2 py-1 mt-1 font-medium text-gray-800 rounded hover:text-gray-300 sm:mt-0 sm:ml-2">Experience</router-link>
       <a href="#" class="block px-2 py-1 mt-1 font-medium text-gray-800 rounded hover:text-gray-300 sm:mt-0 sm:ml-2"> Photography </a>
       <a href="#" class="block px-2 py-1 mt-1 mb-2 font-medium text-gray-800 rounded sm:mb-0 hover:text-gray-300 sm:mt-0 sm:ml-2"> Contact Me </a>
     </div>  
@@ -46,7 +46,7 @@ export default {
   },
   data () {
     return {
-        isOpen: false,
+      isOpen: false,
     }
   }
 }
