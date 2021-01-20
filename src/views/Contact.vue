@@ -15,7 +15,7 @@
   }
   ```
 -->
-<div class="container relative mx-auto my-5 bg-white">
+<div class="container relative mx-auto my-5 bg-white shadow-2xl">
   <div class="absolute inset-0 ">
     <div class="absolute inset-y-0 left-0 w-1/2 bg-gray-50"></div>
   </div>
