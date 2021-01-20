@@ -7,7 +7,7 @@
     <div class="container mx-auto">
 
         <div class="mt-2 mb-5 lg:text-center">
-            <h2 class="text-base font-semibold tracking-wide text-indigo-600 uppercase">Transactions</h2>
+            <!-- <h2 class="text-base font-semibold tracking-wide text-indigo-600 uppercase">Transactions</h2> -->
             <p class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl">
                 My Work Experience
             </p>
