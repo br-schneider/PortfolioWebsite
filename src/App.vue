@@ -20,8 +20,8 @@
     <div :class="isOpen ? 'block' : 'hidden' " class="items-center px-2 text-left sm:flex" >
       <router-link to="/" class="block px-2 py-1 font-medium text-gray-800 rounded hover:text-gray-300 sm:ml-2">Home</router-link>
       <router-link to="/experience" class="block px-2 py-1 mt-1 font-medium text-gray-800 rounded hover:text-gray-300 sm:mt-0 sm:ml-2">Experience</router-link>
-      <a href="#" class="block px-2 py-1 mt-1 font-medium text-gray-800 rounded hover:text-gray-300 sm:mt-0 sm:ml-2"> Photography </a>
-      <a href="#" class="block px-2 py-1 mt-1 mb-2 font-medium text-gray-800 rounded sm:mb-0 hover:text-gray-300 sm:mt-0 sm:ml-2"> Contact Me </a>
+      <!-- <a href="#" class="block px-2 py-1 mt-1 font-medium text-gray-800 rounded hover:text-gray-300 sm:mt-0 sm:ml-2"> Photography </a> -->
+       <router-link to="/contact" class="block px-2 py-1 mt-1 font-medium text-gray-800 rounded hover:text-gray-300 sm:mt-0 sm:ml-2">Contact Me</router-link>
     </div>  
 
   </header>
