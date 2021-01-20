@@ -66,9 +66,9 @@
         </p> -->
       </div>
     </div>
-    <div class="px-4 py-16 bg-white sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
+    <div class="px-4 py-16 bg-gray-100 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
       <div class="max-w-lg mx-auto lg:max-w-none">
-        <form action="#" method="POST" class="grid grid-cols-1 gap-y-6">
+        <form data-netlify="true" action="#" method="POST" class="grid grid-cols-1 gap-y-6">
           <div>
             <label for="full_name" class="sr-only">Full name</label>
             <input type="text" name="full_name" id="full_name" autocomplete="name" class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500" placeholder="Full name">
