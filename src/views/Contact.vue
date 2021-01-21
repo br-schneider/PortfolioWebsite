@@ -73,15 +73,15 @@
             
           <div>
             <label for="full_name" class="sr-only">Full name</label>
-            <input type="text" name="full_name" id="full_name" autocomplete="name" value="name" class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500" placeholder="Full name">
+            <input type="text" name="full_name" id="full_name" autocomplete="name" class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500" placeholder="Full name">
           </div>
           <div>
             <label for="email" class="sr-only">Email</label>
-            <input id="email" name="email" type="email" autocomplete="email" value="email" class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500" placeholder="Email">
+            <input id="email" name="email" type="email" autocomplete="email" class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500" placeholder="Email">
           </div>
           <div>
             <label for="phone" class="sr-only">Phone</label>
-            <input type="text" name="phone" id="phone" autocomplete="tel" value="phone" class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500" placeholder="Phone">
+            <input type="text" name="phone" id="phone" autocomplete="tel" class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500" placeholder="Phone">
           </div>
           <div>
             <label for="message" class="sr-only">Message</label>
