@@ -29,11 +29,7 @@
 <router-view/>
 
 <footer class="py-20 bg-gray-900">
-  <p>test</p>
-  <p>test</p>
-  <p>test</p>
-  <p>test</p>
-  <p>test</p>
+
 </footer>
 
 </template>
