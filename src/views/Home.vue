@@ -8,7 +8,7 @@
       <p class="text-4xl font-bold text-white ">Available for Hire</p>
       <p class="mt-3 text-xl text-white">Get to know me!</p>
 
-      <button class="px-6 py-2 mt-3 font-medium bg-white rounded-lg">CONTACT ME</button>
+      <router-link tag="button" to="/contact" class="px-6 py-2 mt-3 font-medium bg-white rounded-lg">CONTACT ME</router-link>
     </div>
     </div>
 
