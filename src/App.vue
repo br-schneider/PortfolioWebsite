@@ -26,6 +26,7 @@
 
   </header>
   
+<router-view/>
 
 <footer class="py-20 bg-gray-900">
 
