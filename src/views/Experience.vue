@@ -90,7 +90,7 @@
           </div>
           <div class="ml-4">
             <dt class="text-lg font-medium leading-6 text-gray-900">
-              Internal Sales Intern at Ascendant Capital
+              Founding Partner at Lax Elements LLC, Austin TX
             </dt>
             <dd class="mt-2 text-base text-gray-500">
               Created LLC for start-up including filing articles of organization, creating an operating agreement and complying with tax and regulatory requirements.
