@@ -69,7 +69,7 @@
     <div class="px-4 py-16 bg-gray-100 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
       <div class="max-w-lg mx-auto lg:max-w-none">
           
-        <form name="contact"  method="POST" data-netlify="true" data-netlify-honeypot="bot-field" class="grid grid-cols-1 gap-y-6">
+        <form name="contact" action="https://formspree.io/f/xgepdrdl"  method="POST" class="grid grid-cols-1 gap-y-6">
             
           <div>
             <label for="full_name" class="sr-only">Full name</label>
