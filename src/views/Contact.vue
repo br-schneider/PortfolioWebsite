@@ -69,7 +69,7 @@
     <div class="px-4 py-16 bg-gray-100 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
       <div class="max-w-lg mx-auto lg:max-w-none">
           
-        <form name="contact" action="https://formspree.io/f/xgepdrdl"  method="POST" class="grid grid-cols-1 gap-y-6">
+        <form name="contact" @submit.prevent action="https://formspree.io/f/xgepdrdl"  method="POST" class="grid grid-cols-1 gap-y-6">
             
           <div>
             <label for="full_name" class="sr-only">Full name</label>
@@ -88,7 +88,7 @@
             <textarea id="message" name="message" rows="4" class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500" placeholder="Message"></textarea>
           </div>
           <div>
-            <button @click="clicked=!clicked"  type="submit" class="inline-flex justify-center px-6 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+            <button @click="clicked=!clicked "  type="submit" class="inline-flex justify-center px-6 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
               Submit
             </button>
           </div>
@@ -156,9 +156,9 @@
         </div>
       </div>
       <div class="mt-5 sm:mt-6">
-        <router-link tag="button" to="/" type="button" class="inline-flex justify-center w-full px-4 py-2 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:text-sm">
+        <button @click="$router.push('/')" type="button"  class="inline-flex justify-center w-full px-4 py-2 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:text-sm">
           Go back to home page
-        </router-link>
+        </button>
       </div>
     </div>
   </div>
