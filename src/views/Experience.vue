@@ -90,11 +90,11 @@
           </div>
           <div class="ml-4">
             <dt class="text-lg font-medium leading-6 text-gray-900">
-              Founding Partner at Lax Elements LLC, Austin TX
+              Founding Partner at Lax Elements LLC
             </dt>
             <dd class="mt-2 text-base text-gray-500">
-              Created LLC for start-up including filing articles of organization, creating an operating agreement and complying with tax and regulatory requirements.
-              <br><br>Led marketing, social media, and accounting functions along with order and inventory management.
+              Created LLC for start-up including filing articles of organization, creating an operating agreement and complying with tax and regulatory requirements
+              <br><br>Led marketing, social media, and accounting functions along with order and inventory management
             </dd>
           </div>
         </div>
