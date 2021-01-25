@@ -208,7 +208,7 @@ export default {
       axios.post('https://formspree.io/f/xgepdrdl',{
         name: this.nameMsg,          
         from: this.emailMsg,          
-        _subject: `${this.nameMsg} | Friendly Message from Github Page`,
+        _subject: `${this.nameMsg}`,
         message: this.messageMsg,
         },
       )
