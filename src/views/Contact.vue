@@ -69,23 +69,23 @@
     <div class="px-4 py-16 bg-gray-100 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
       <div class="max-w-lg mx-auto lg:max-w-none">
           
-        <form name="contact" @submit.prevent action="https://formspree.io/f/xgepdrdl"  method="POST" class="grid grid-cols-1 gap-y-6">
+        <form role="form"  method="POST"  @submit.prevent="sendEmail" class="grid grid-cols-1 gap-y-6">
             
           <div>
             <label for="full_name" class="sr-only">Full name</label>
-            <input type="text" name="full_name" id="full_name" autocomplete="name" class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500" placeholder="Full name">
+            <input type="text" name="name" autocomplete="name" v-model="nameMsg" class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500" placeholder="Full name">
           </div>
           <div>
             <label for="email" class="sr-only">Email</label>
-            <input id="email" name="email" type="email" autocomplete="email" class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500" placeholder="Email">
+            <input type="email" name="_replyto" autocomplete="email" v-model="emailMsg" class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500" placeholder="Email">
           </div>
           <div>
             <label for="phone" class="sr-only">Phone</label>
-            <input type="text" name="phone" id="phone" autocomplete="tel" class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500" placeholder="Phone">
+            <input type="text" name="phone" autocomplete="tel" v-model="phoneMsg" class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500" placeholder="Phone">
           </div>
           <div>
             <label for="message" class="sr-only">Message</label>
-            <textarea id="message" name="message" rows="4" class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500" placeholder="Message"></textarea>
+            <textarea id="message" name="message" rows="4" v-model="messageMsg" class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500" placeholder="Message"></textarea>
           </div>
           <div>
             <button @click="clicked=!clicked "  type="submit" class="inline-flex justify-center px-6 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
@@ -179,9 +179,14 @@
 <script>
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
+import axios from 'axios';
 
 export default {
+
+
   name: 'Contact',
+
+  
   components: {
     // HelloWorld
     //Submission
@@ -189,7 +194,25 @@ export default {
   data () {
     return {
       clicked: false,
+      nameMsg: '',      
+      emailMsg: '',  
+      phoneMsg: '',    
+      messageMsg: '',      
+      loadingTxt: false,
     }
-  }
+  },
+  methods: {
+    sendEmail() {  
+
+      this.loadingTxt= true;      
+      axios.post('https://formspree.io/f/xgepdrdl',{
+        name: this.nameMsg,          
+        from: this.emailMsg,          
+        _subject: `${this.nameMsg} | Friendly Message from Github Page`,
+        message: this.messageMsg,
+        },
+      )
+    },
+  },
 }
 </script>
