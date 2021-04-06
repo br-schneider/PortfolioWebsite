@@ -1,4 +1,5 @@
 <template>
+  <Navbar></Navbar>
     <!--
   This example requires Tailwind CSS v2.0+ 
   
@@ -73,7 +74,7 @@
             
           <div>
             <label for="full_name" class="sr-only">Full name</label>
-            <input type="text" name="name" autocomplete="name" v-model="nameMsg" class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500" placeholder="Full name">
+            <input type="text" name="name" autocomplete="name" v-model="nameMsg" class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500" placeholder="Full name" required>
           </div>
           <div>
             <label for="email" class="sr-only">Email</label>
@@ -180,6 +181,7 @@
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
 import axios from 'axios';
+import Navbar from '../components/Navbar.vue'
 
 export default {
 
@@ -188,8 +190,7 @@ export default {
 
   
   components: {
-    // HelloWorld
-    //Submission
+    Navbar
   },
   data () {
     return {
@@ -197,7 +198,8 @@ export default {
       nameMsg: '',      
       emailMsg: '',  
       phoneMsg: '',    
-      messageMsg: '',      
+      messageMsg: '', 
+      emptyCommunication: false, 
       loadingTxt: false,
     }
   },
@@ -205,14 +207,26 @@ export default {
     sendEmail() {  
 
       this.loadingTxt= true;      
-      axios.post('https://formspree.io/f/xgepdrdl',{
+      axios.post('https://formspree.io/f/xgepdrdl', {
         name: this.nameMsg,          
-        from: this.emailMsg,          
+        email: this.emailMsg,          
         _subject: `${this.nameMsg}`,
         message: this.messageMsg,
-        },
+        }
       )
     },
+    // checkFields() {
+    //   if (this.emailMsg.length==0 && this.phoneMsg.length ==0) {
+    //     this.emptyCommunication = true;
+    //   } 
+
+    //   if (this.emailMsg.length==0 && this.phoneMsg.length ==0) {
+    //     this.emptyCommunication = true;
+    //   } 
+
+
+    //   if (!nameMsg || !emailMsg)
+    // },
   },
 }
 </script>
