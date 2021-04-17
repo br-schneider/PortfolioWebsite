@@ -205,8 +205,7 @@ export default {
   },
   methods: {
     sendEmail() {  
-
-      this.loadingTxt= true;      
+      this.loadingTxt = true;      
       axios.post('https://formspree.io/f/xgepdrdl', {
         name: this.nameMsg,          
         email: this.emailMsg,          
