@@ -135,7 +135,7 @@
                       Website
                     <!-- </a> -->
                   </p>
-                  <a href="https://github.com/br-schneider/dogsilly" class="block mt-2">
+                  <a href="https://dogsilly.com" class="block mt-2">
                     <p class="text-xl font-semibold text-gray-900">
                       Dogsilly
                     </p>
